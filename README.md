@@ -18,5 +18,12 @@ print("Hello \nthere!")
 
 ```python
 input("A prompt for the user")
+
+# Usage:
+print("Hello " + input("What is your name?"))
+
+# Console
+# What is your name?Bob
+# Hello Bob
 ```
 
