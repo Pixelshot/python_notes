@@ -31,6 +31,7 @@ print("Hello " + input("What is your name?"))
 
 ```python
 # The act of pulling out a particular element from a string
+print("Hello"[4]) # returns o
 ```
 
 
