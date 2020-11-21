@@ -27,3 +27,25 @@ print("Hello " + input("What is your name?"))
 # Hello Bob
 ```
 
+**Subscript**
+
+```python
+# The act of pulling out a particular element from a string
+print("Hello"[4]) # returns o
+```
+
+#### type\(\)
+
+```python
+# To check the type of data 
+# Equivalent to typeOf in JavaScript
+name = "Bob"
+print(name) #returns <class 'int'>
+```
+
+#### function\(\)
+
+* **Remember the fries, rock & machine analogy**
+
+
+
