@@ -39,6 +39,20 @@
 print(734_529.678) # >734529.678 
 ```
 
+### Type Conversion: str\(\) / int\(\) / float\(\)
+
+```python
+# Use type conversion to change one data type to another
+num = "123"
+print(num) # <class 'str'>
+
+num = int(num)
+print(num) # <class 'int'>
+
+print(70 + float("100.5")) # 170.5 => data type is number
+print(str(70) + str(100))  # "70100"  => data type is string
+```
+
 ### **Boolean**
 
 **True or False**
