@@ -2,17 +2,6 @@
 
 ### String
 
-### Number
-
-* **Positive** and N**egative** numbers are both considered as _**Integers**_
-* Typically we would use **comma\(,\)** to separate large numbers. 
-* Python instead uses **underscore** `_` to achieve the same thing.
-
-```python
-# Normal: 123, 456, 789
-# Python: 123_456_789
-```
-
 * \*\*\*\*[**formatted string literals**](https://realpython.com/python-f-strings/)**\(f-strings\)**
 
   *  string literals that have an `f` at the beginning and curly braces containing expressions that will be replaced with their values
@@ -27,6 +16,17 @@
   >>> F"Hello, {name}. You are {age}."
   'Hello, Eric. You are 74.'
   ```
+
+### Number
+
+* **Positive** and N**egative** numbers are both considered as _**Integers**_
+* Typically we would use **comma\(,\)** to separate large numbers. 
+* Python instead uses **underscore** `_` to achieve the same thing.
+
+```python
+# Normal: 123, 456, 789
+# Python: 123_456_789
+```
 
 #### Float
 
