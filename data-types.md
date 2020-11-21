@@ -18,6 +18,12 @@
 * Numbers with **decimals**
 * Eg: **3.14159**
 
+```python
+# Important note:
+# Float takes presedence over comma separators
+print(734_529.678) # >734529.678 
+```
+
 ### **Boolean**
 
 **True or False**
