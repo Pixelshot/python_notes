@@ -34,13 +34,24 @@ print("Hello " + input("What is your name?"))
 print("Hello"[4]) # returns o
 ```
 
-#### type\(\)
+#### Type Checking: type\(\)
 
 ```python
 # To check the type of data 
 # Equivalent to typeOf in JavaScript
 name = "Bob"
-print(name) #returns <class 'int'>
+print(name) #returns <class 'str'>
+```
+
+#### Type Conversion: str\(\) / int\(\)
+
+```python
+# Use type conversion to change one data type to another
+num = "123"
+print(num) # <class 'str'>
+
+num = int(num)
+print(num) # <class 'int'>
 ```
 
 #### function\(\)
