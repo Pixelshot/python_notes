@@ -27,3 +27,11 @@ print("Hello " + input("What is your name?"))
 # Hello Bob
 ```
 
+**Subscript**
+
+```python
+# The act of pulling out a particular element from a string
+```
+
+
+
