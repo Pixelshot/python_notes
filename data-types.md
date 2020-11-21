@@ -13,6 +13,21 @@
 # Python: 123_456_789
 ```
 
+* \*\*\*\*[**formatted string literals**](https://realpython.com/python-f-strings/)**\(f-strings\)**
+
+  *  string literals that have an `f` at the beginning and curly braces containing expressions that will be replaced with their values
+
+  ```python
+  >>> name = "Eric"
+  >>> age = 74
+  >>> f"Hello, {name}. You are {age}."
+  'Hello, Eric. You are 74.'
+
+  # Capital F works as well
+  >>> F"Hello, {name}. You are {age}."
+  'Hello, Eric. You are 74.'
+  ```
+
 #### Float
 
 * Numbers with **decimals**
