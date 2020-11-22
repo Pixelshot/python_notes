@@ -3,4 +3,5 @@
 * [Notes](README.md)
 * [Data Types](data-types.md)
 * [Mathematical Operations](mathematical-operations.md)
+* [Conditional Operators](conditional-operators.md)
 
