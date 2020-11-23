@@ -36,5 +36,13 @@ print('randrange() generated number:', a)
 print('randint() generated number:', c)
 ```
 
+#### 3. random.**random**\(\) 
+
+Returns the next random **floating** point number between **\[0.0 to 1.0\] but does not include 1**
+
+
+
+
+
 
 
