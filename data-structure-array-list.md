@@ -27,8 +27,9 @@ print(fruits)
 
 #### Adding MULTIPLE elements inside of a list with .extend\(\)
 
+* **This method only takes ONE ARGUMENT so if we have multiple elements we can turn it into a list**
+
 ```python
-# This method only takes one argument so if we have multiple elements we can turn it into a list
 more_fruits = ["mango", "banana", "papaya"]
 fruits.extend(more_fruits)
 
