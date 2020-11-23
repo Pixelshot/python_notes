@@ -16,13 +16,24 @@ print(fruits)
 > ['apple', 'orange', 'grape']
 ```
 
-#### Add and element inside of a list with .append\(\)
+#### Add ONE element inside of a list with .append\(\)
 
 ```python
 fruits.append("pear")
 
 print(fruits)
 > ['apple', 'orange', 'grape', 'pear']
+```
+
+#### Adding MULTIPLE elements inside of a list with .extend\(\)
+
+```python
+# This method only takes one argument so if we have multiple elements we can turn it into a list
+more_fruits = ["mango", "banana", "papaya"]
+fruits.extend(more_fruits)
+
+print(fruits)
+> ['apple', 'orange', 'grape', 'pear', 'mango', 'banana', 'papaya']
 ```
 
 
