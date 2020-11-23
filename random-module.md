@@ -40,7 +40,9 @@ print('randint() generated number:', c)
 
 Returns the next random **floating** point number between **\[0.0 to 1.0\] but does not include 1**
 
+#### 3. [random.**seed**\(\) ](https://www.w3schools.com/python/ref_random_seed.asp)
 
+This method is useful when we want our **variable** to **keep** the **same** random number
 
 
 
