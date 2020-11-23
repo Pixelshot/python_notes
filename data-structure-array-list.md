@@ -37,5 +37,14 @@ print(fruits)
 > ['apple', 'orange', 'grape', 'pear', 'mango', 'banana', 'papaya']
 ```
 
+#### Nested List
+
+```python
+fruits = ["Strawberry", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+```
+
 
 
