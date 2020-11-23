@@ -16,5 +16,14 @@ print(fruits)
 > ['apple', 'orange', 'grape']
 ```
 
+#### Add and element inside of a list with .append\(\)
+
+```python
+fruits.append("pear")
+
+print(fruits)
+> ['apple', 'orange', 'grape', 'pear']
+```
+
 
 
