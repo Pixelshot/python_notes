@@ -15,3 +15,10 @@ for fruit in fruits:
 # Pear
 ```
 
+### Range
+
+```python
+for number in range(a, b):
+print(number)
+```
+
