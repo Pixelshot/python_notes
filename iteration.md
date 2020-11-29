@@ -1,5 +1,8 @@
 # Iteration
 
+### When to use For or While Loop
+
+* 
 ### For Loop
 
 ```python
@@ -15,13 +18,29 @@ for fruit in fruits:
 # Pear
 ```
 
+### While Loop
+
+* Condition **MUST BE TRUE**
+  * This can be tricky when the variable/function that we're looping on is already true by default but needs to be false until the condition is met
+  * Example of this is where [Reeborg](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json) needs to keep moving until it reaches the flag at a random location  
+
+```python
+while something_is_true
+    # Do something repeatedly
+    # 
+
+# For Reebog's example:
+    while not at_goal():
+        jump()
+```
+
 ### Range
 
  [**range**_**\(start, stop, step**_**\)**](https://www.w3schools.com/python/ref_func_range.asp)\*\*\*\*
 
 ```python
 for number in range(a, b):
-print(number)
+    print(number)
 
 # Sum of all numbers from 1 to 100
 total = 0
