@@ -2,7 +2,9 @@
 
 ### When to use For or While Loop
 
-* 
+* **For Loop: When you need to** _**do something**_ **with** _**each element**_ **that you're** _**iterating**_ **over**
+* **While Loop: When you** _**don't care what number in the sequence**_ **you're in,** _**which item you're iterating**_ **through in a list and just** _**want to carry out some sort of functionality many times until the condition that you set has been met**_
+
 ### For Loop
 
 ```python
