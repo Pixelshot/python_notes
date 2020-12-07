@@ -22,11 +22,11 @@ my_function()
 #### Functions with Inputs
 
 ```python
-def my_function(input):
-    # Do this with input
+def my_function(something): # something in this line is called Parameter
+    # Do this with something
     # Then do this
     # Finally do this
     
-    
+my_function(123) # 123 is the Argument
 ```
 
