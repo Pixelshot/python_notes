@@ -19,3 +19,14 @@ def my_function():
 my_function()
 ```
 
+#### Functions with Inputs
+
+```python
+def my_function(input):
+    # Do this with input
+    # Then do this
+    # Finally do this
+    
+    
+```
+
