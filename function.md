@@ -50,5 +50,15 @@ my_function(3, 2, 1):
 # c = 1
 
 # The order of where we put our arguments matter
+# To change this behaviour, we use Keyword Arguments 
+```
+
+#### Keyword Arguments
+
+```python
+# Keyword Arguments lock each argument to it's assigned key
+def my_function(a=1, b=2, c=3)
+def my_function(c=3, b=2, a=1)
+# both of the function calls above will return the same output now 
 ```
 
