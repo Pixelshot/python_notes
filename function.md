@@ -42,5 +42,13 @@ my_function(1, 2, 3)
 # a = 1
 # b = 2
 # c = 3
+
+# If we swap positions 3 & 1:
+my_function(3, 2, 1):
+# a = 3
+# b = 2
+# c = 1
+
+# The order of where we put our arguments matter
 ```
 
