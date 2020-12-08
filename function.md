@@ -30,3 +30,17 @@ def my_function(something): # something in this line is called Parameter
 my_function(123) # 123 is the Argument
 ```
 
+#### Positional Arguments
+
+```python
+def my_function(a, b, c):
+    # Do this with a
+    # Then do his with b
+    # Finally do this with c
+
+my_function(1, 2, 3)
+# a = 1
+# b = 2
+# c = 3
+```
+
