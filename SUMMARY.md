@@ -8,4 +8,5 @@
 * [Data Structure: Array / List](data-structure-array-list.md)
 * [Iteration](iteration.md)
 * [Function](function.md)
+* [Dictionary](dictionary.md)
 
