@@ -1,6 +1,6 @@
 # Dictionary
 
-In P**ython**, an **Object** is called **Dictionary**
+In **Python**, an **Object** is called **Dictionary**
 
 **Same syntax:** 
 
