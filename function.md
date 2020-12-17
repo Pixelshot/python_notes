@@ -62,3 +62,15 @@ def my_function(c=3, b=2, a=1)
 # both of the function calls above will return the same output now 
 ```
 
+#### Functions with Outputs
+
+```python
+def my_function():
+    result = 3 * 2
+    return result
+    # Once the function gets executed, whatever 'return' is outputting will replace the function call(my_function())
+    # This output can be stored in a variable.
+    # Eg: 
+        # output = my_function() // output = 6
+```
+
