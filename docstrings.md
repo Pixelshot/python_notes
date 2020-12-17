@@ -1,3 +1,10 @@
+---
+description: >-
+  When we want to document our function and make it appear on tooltip for our
+  future self or others. This helps everyone understand the purpose of the
+  function
+---
+
 # Docstrings
 
 ```python
