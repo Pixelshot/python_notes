@@ -29,7 +29,6 @@ for fruit in fruits:
 ```python
 while something_is_true
     # Do something repeatedly
-    # 
 
 # For Reebog's example:
     while not at_goal():
