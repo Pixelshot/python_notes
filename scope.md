@@ -3,6 +3,7 @@
 #### Modifying Global Scope
 
 * To modify a `global variable/function`, we use the `global` keyword 
+* But using \`global\` is frowned upon and shouldn't be used frequently because it may create confusion especially when dealing with large number of code
 
 ```python
 enemies = 1
@@ -10,9 +11,13 @@ enemies = 1
 def increase_enemies():
     global enemies # use global keyword to tell python that this is a global variable
     enemies += 1
-    print(f"enemies inside function: {enemies}"}
+    print(f"enemies inside function: {enemies}")
     
 increase_enemies()
 print(f"enemies outside function: {enemies}")
+
+# Result:
+# enemies inside function: 2
+# enemies outside function: 2
 ```
 
