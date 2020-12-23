@@ -10,4 +10,5 @@
 * [Function](function.md)
 * [Dictionary](dictionary.md)
 * [Docstrings](docstrings.md)
+* [Scope](scope.md)
 
