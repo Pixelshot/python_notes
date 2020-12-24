@@ -1,5 +1,12 @@
 # Scope
 
+#### Naming Convention for Global Scope is ALL UPPERCASE. Eg
+
+```python
+PI = 3.149
+URL = "http://www.google.com"
+```
+
 #### Modifying Global Scope
 
 * To modify a `global variable/function`, we use the `global` keyword 
