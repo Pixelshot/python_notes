@@ -11,5 +11,5 @@
 * [Dictionary](dictionary.md)
 * [Docstrings](docstrings.md)
 * [Scope](scope.md)
-* [OOP](oop.md)
+* [OOP\(Class\)](oop.md)
 

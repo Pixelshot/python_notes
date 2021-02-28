@@ -1,4 +1,4 @@
-# OOP
+# OOP\(Class\)
 
 ### A Class is the JOB. 
 
@@ -33,5 +33,17 @@ user_1.username = "hazri"
 print(user_1.username)
 ```
 
-#### 
+#### Constructor
+
+```python
+# Syntax:
+class (Name of the Class):
+    def __init__(self)
+    # initialise attributes
+    
+# Example:
+class Car:
+    def __init__(self):
+    # initialise attributes
+```
 
