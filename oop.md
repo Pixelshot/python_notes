@@ -43,6 +43,7 @@ class (Name of the Class):
     
 # Example:
 class Car:
+    # this init function will be called everytime the class is created
     def __init__(self):
     # initialise attributes
 ```
