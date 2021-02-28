@@ -47,6 +47,13 @@ class Car:
     # this init function will be called everytime the class is created
     def __init__(self, seats):
     # initialise attributes
-    self.seats = seats
+        self.seats = seats
+    
+    # Example of a method
+    # If it's attached to an Object then it's called a method. Otherwise it's called a function
+    def enter_race_mode():
+        self.seats = 2
 ```
+
+
 
