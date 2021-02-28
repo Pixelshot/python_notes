@@ -38,13 +38,15 @@ print(user_1.username)
 ```python
 # Syntax:
 class (Name of the Class):
-    def __init__(self)
+    # self = Class itself
+    def __init__(self, attributes we define)
     # initialise attributes
     
 # Example:
 class Car:
     # this init function will be called everytime the class is created
-    def __init__(self):
+    def __init__(self, seats):
     # initialise attributes
+    self.seats = seats
 ```
 
