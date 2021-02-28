@@ -1,4 +1,4 @@
-# OOP\(Class\)
+# OOP - Class
 
 ### A Class is the JOB. 
 
