@@ -43,17 +43,32 @@ class (Name of the Class):
     # initialise attributes
     
 # Example:
-class Car:
-    # this init function will be called everytime the class is created
-    def __init__(self, seats):
-    # initialise attributes
-        self.seats = seats
+class User:
+  def __init__(self, user_id, username):
+    self.id = user_id
+    self.username = username
+    # How to set a default value. We don't need to put it as an argument. Just set it to 0 
+    self.followers = 0
+    self.following = 0
     
-    # Example of a method
-    # If it's attached to an Object then it's called a method. Otherwise it's called a function
-    def enter_race_mode():
-        self.seats = 2
+  def follow(self, user):
+    self.following += 1
+    user.followers += 1
+    
+user_1 = User("001", "matt")
+user_2 = User("002", "jack")
+
+user_1.follow(user_2)
+
+print(user_1.followers)
+print(user_1.following)
+
+print(user_2.followers)
+print(user_2.following)
+
 ```
+
+
 
 
 
