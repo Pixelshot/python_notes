@@ -12,4 +12,5 @@
 * [Docstrings](docstrings.md)
 * [Scope](scope.md)
 * [OOP - Class](oop.md)
+* [Higher Order Functions](higher-order-functions.md)
 
